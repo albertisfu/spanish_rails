@@ -24,7 +24,12 @@ If your server is running, you will need to **restart Rails** before using the g
 
 ## Usage
 
-Check out the documentation at: http://jdsampayo.github.io/spanish_rails/
+Execute:
+```bash
+$ rails g spanish_rails:install
+```
+
+If will ask to overwrite the file inflections. If you have not modified that file in your project, you can safely overwrite it.
 
 ## Contributing
 
