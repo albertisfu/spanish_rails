@@ -2,7 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/spanish_rails.png)](http://badge.fury.io/rb/spanish_rails)
 
-This gem packages adds spanish inflections to a Rails project.
+This gem adds Spanish inflections and locales to a Rails project.
 
 ## Installation
 
