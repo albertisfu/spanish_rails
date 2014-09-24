@@ -29,7 +29,7 @@ Execute:
 $ rails g spanish_rails:install
 ```
 
-If will ask to overwrite the file inflections. If you have not modified that file in your project, you can safely overwrite it.
+It will ask to overwrite the inflections config file. If you have not modified that file in your project, you can safely overwrite it.
 
 ## Contributing
 
