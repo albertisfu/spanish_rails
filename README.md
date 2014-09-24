@@ -8,7 +8,7 @@ This gem packages adds spanish inflections to a Rails project.
 
 Add these lines to your application's Gemfile:
 ```ruby
-gem 'spanish_rails', '>= 0.0.1'
+gem 'spanish_rails', '>= 0.1.0', github: 'jdsampayo/spanish_rails'
 ```
 
 And then execute:
