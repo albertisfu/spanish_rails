@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'bootstrap-sass', '~> 3.3.5'
   spec.add_runtime_dependency 'bootstrap-generators', '~> 3.3.4'
   spec.add_runtime_dependency 'jquery-tablesorter'
-  spec.add_runtime_dependency 'simple_form', '~> 3.1.0.rc2'
+  spec.add_runtime_dependency 'simple_form', '>= 3.1.0'
   spec.add_runtime_dependency 'will_paginate', '~> 3.0'
   spec.add_runtime_dependency 'will_paginate-bootstrap'
   spec.add_runtime_dependency 'active_link_to'
