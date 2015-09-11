@@ -1,0 +1,14 @@
+.page-header
+  = link_to <%= index_helper %>_path, class: 'btn btn-default' do
+    i.fa.fa-list
+    |  Regresar
+  = link_to edit_<%= singular_table_name %>_path(@<%= singular_table_name %>), class: 'btn btn-primary' do
+    i.fa.fa-pencil
+    |  Editar
+  h1
+    | Detallar <%= singular_table_name.capitalize %>
+dl.dl-horizontal
+<%- for attribute in attributes -%>
+  dt <%= attribute.human_name %>:
+  dd= @<%= singular_table_name %>.<%= attribute.name %>
+<%- end -%>

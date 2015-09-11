@@ -1,0 +1,8 @@
+.page-header
+  = link_to <%= index_helper %>_path, class: 'btn btn-default' do
+    i.fa.fa-list
+    |  Regresar
+  h1
+    | Agregar <%= singular_table_name.capitalize %>
+
+= render 'form'

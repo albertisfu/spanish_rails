@@ -18,7 +18,6 @@ ActiveSupport::Inflector.inflections do |inflect|
 
   inflect.irregular('image', 'images')
   inflect.irregular('gallery', 'galleries')
-  inflect.irregular('meme', 'memes')
 
   # Se agregan inflectores para todos los casos de detalle_ y detalles_
   # Ejs.:

@@ -8,6 +8,10 @@ module SpanishRails
       directory 'config/initializers'
     end
 
+    def copy_templates
+      directory 'lib/templates'
+    end
+
     def inject_backbone
       application_path = 'config/application.rb'
 

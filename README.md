@@ -26,6 +26,8 @@ If your server is running, you will need to **restart Rails** before using the g
 
 Execute:
 ```bash
+$ rails generate bootstrap:install --template-engine=slim --stylesheet-engine=sass
+$ rails generate simple_form:install --bootstrap
 $ rails g spanish_rails:install
 ```
 

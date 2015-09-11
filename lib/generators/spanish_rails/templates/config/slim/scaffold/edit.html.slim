@@ -1,0 +1,11 @@
+.page-header
+  = link_to <%= index_helper %>_path, class: 'btn btn-default' do
+    i.fa.fa-list
+    |  Regresar
+  = link_to @<%= singular_table_name %>, class: 'btn btn-primary' do
+    i.fa.fa-info
+    |  Mostrar
+  h1
+    | Editar <%= singular_table_name.capitalize %>
+
+= render 'form'
