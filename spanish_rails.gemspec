@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'rake'
   spec.add_runtime_dependency 'slim', '~> 3.0.3'
   spec.add_runtime_dependency 'slim-rails'
-  spec.add_runtime_dependency 'font-awesome-rails', '~> 4.3.0.0'
+  spec.add_runtime_dependency 'font-awesome-rails', '>= 4.3.0.0'
   spec.add_runtime_dependency 'bootstrap-sass', '~> 3.3.5'
   spec.add_runtime_dependency 'bootstrap-generators', '~> 3.3.4'
   spec.add_runtime_dependency 'jquery-tablesorter'
